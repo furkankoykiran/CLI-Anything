@@ -146,12 +146,12 @@ CLI-Anythingのコマンド**と** `HARNESS.md` をOpenCodeのコマンドディ
 git clone https://github.com/HKUDS/CLI-Anything.git
 
 # グローバルインストール（すべてのプロジェクトで利用可能）
-cp CLI-Anything/opencode-commands/*.md ~/.config/opencode/command/
-cp CLI-Anything/cli-anything-plugin/HARNESS.md ~/.config/opencode/command/
+cp CLI-Anything/opencode-commands/*.md ~/.config/opencode/commands/
+cp CLI-Anything/cli-anything-plugin/HARNESS.md ~/.config/opencode/commands/
 
 # またはプロジェクトレベルのインストール
-cp CLI-Anything/opencode-commands/*.md .opencode/command/
-cp CLI-Anything/cli-anything-plugin/HARNESS.md .opencode/command/
+cp CLI-Anything/opencode-commands/*.md .opencode/commands/
+cp CLI-Anything/cli-anything-plugin/HARNESS.md .opencode/commands/
 ```
 
 > **注:** `HARNESS.md`はすべてのコマンドが参照する方法論の仕様書です。コマンドと同じディレクトリに配置する必要があります。
