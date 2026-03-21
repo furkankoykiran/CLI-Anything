@@ -39,6 +39,7 @@
 !/drawio/
 !/mermaid/
 !/adguardhome/
+!/novita/
 !/ollama/
 
 # Step 5: Inside each software dir, ignore everything (including dotfiles)
@@ -88,6 +89,7 @@
 !/drawio/agent-harness/
 !/mermaid/agent-harness/
 !/adguardhome/agent-harness/
+!/novita/agent-harness/
 !/ollama/agent-harness/
 
 # Step 7: Ignore build artifacts within allowed dirs
